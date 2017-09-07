@@ -1,6 +1,9 @@
 # roboc2-dual-runout-upgrade
 Step-by-step instructions for upgrading the Robo C2 to support dual filament run-out detection.
 
+# Overview
+The Robo C2 is a great printer out-of-the-box with few exceptions. In my case, one of those exceptions was that the filament run-out sensor simply does not work. Even though the C2 includes two slots for hotends and two filament guides there at the back, there was no support added for that second guide slot. In these cases, it's time for an upgrade. This project will replace the stock filament run-out assembly completely with one that should work for two rolls of filament at the same time.
+
 # Skills
 You'll need soldering skills for this project. There will be small wires and tiny connectors on those switches.
 
