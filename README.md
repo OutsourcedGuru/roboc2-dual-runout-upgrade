@@ -26,7 +26,7 @@ For this project, you'll need to print the sensor assembly box in PLA. I used th
 
 # Design Criteria
 * I wanted to be able to detect a run-out of either filament roll (in anticipation of a dual-extruder upgrade which comes next)
-* I didn't want to have to re-wire the Raspberry side of things so I've tried to keep the upgrade in the localized area of the replace run-out switch assembly with respect to changes
+* I didn't want to have to re-wire the Raspberry side of things so I've tried to keep the upgrade in the localized area of the replaced run-out switch assembly with respect to changes
 * It's possible to use this with only a single filament in play; just cut a spare bit of 1.75mm filament at 5", bend an L-shape (or full circle) at the top and then insert it into the second filament hole to close that switch as a "dummy" marker
 * In this single-filament mode, note that the spare filament "dummy" may be pulled from the sensor to pause a print job as if you'd pressed the Pause button from the LCD screen
 
