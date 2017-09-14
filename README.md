@@ -22,12 +22,15 @@ My own Robo C2 arrived with an inoperative filament run-out switch. It didn't de
 I think I'd like to replace the original plugin with something else that allows more options.
 
 # 3D Part
-For this project, you'll need to print the sensor assembly box in PLA. I used the [Robo Black PLA](https://store.robo3d.com/collections/filament-pla/pla-jet-black-500g) for this but any standard PLA filament should work.
+For this project, you'll need to print the sensor assembly box in PLA. I used the [Robo Black PLA](https://store.robo3d.com/collections/filament-pla/pla-jet-black-500g) for this but any standard PLA filament should work. You can find both the STL and GCODE files here. If you choose to slice the STL yourself you should leave the part flat with its back oriented down. This part does not work well at all with internal supports if oriented differently. You should print on the highest quality setting available. The clearances on all sides of the microswitches are intentionally tight. You'll likely curse me later but this is necessary as you'll see later—the proximity forces the microswitch to be in exactly the right spot with respect to the filament path.
 
 # Design Criteria
 * I wanted to be able to detect a run-out of either filament roll (in anticipation of a dual-extruder upgrade which comes next)
 * I didn't want to have to re-wire the Raspberry side of things so I've tried to keep the upgrade in the localized area of the replaced run-out switch assembly with respect to changes
 * It's possible to use this with only a single filament in play; just cut a spare bit of 1.75mm filament at 5", bend an L-shape (or full circle) at the top and then insert it into the second filament hole to close that switch as a "dummy" marker
 * In this single-filament mode, note that the spare filament "dummy" may be pulled from the sensor to pause a print job as if you'd pressed the Pause button from the LCD screen
+
+# Instructions
+(under construction)
 
 
